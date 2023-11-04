@@ -1,2 +1,2 @@
 # streamlit_chatbot_1
-Exploring chatbot templates in a streamlit web application
+Streamlit chatbot template with chat history and OpenAI API Key integration
