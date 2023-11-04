@@ -1,14 +1,10 @@
 import openai
 import streamlit as st
 import toml
+import constants as cn
 
-try:
-    # Try to load the secret from Streamlit's secrets management (for deployed app)
-    openai.api_key = st.secrets["OPENAI_API_KEY"]
-except FileNotFoundError:
-    # If running locally, load the secret from secrets.toml file directly
-    secrets = toml.load("secrets.toml")
-    openai.api_key = secrets["OPENAI_API_KEY"]
+openai.api_key = cn.OPENAI_API_KEY
+
 
 st.title("ChatGPT-like clone")
 
