@@ -1,6 +1,5 @@
 import openai
 import streamlit as st
-import toml
 import constants as cn
 
 openai.api_key = cn.OPENAI_API_KEY
