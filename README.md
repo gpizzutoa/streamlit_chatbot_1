@@ -18,6 +18,7 @@ In the *constants.py* file, set the OPENAI_API_KEY variable with your OpenAI API
 ### Running the Application
 
 To run the application, navigate to the project directory and execute the following command:
+`streamlit run main.py`
 
 ## How It Works
 - The application uses Streamlit to create a web interface for user interactions.
