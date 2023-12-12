@@ -2,6 +2,9 @@
 
 This repository contains the source code for a ChatGPT-like clone application built using OpenAI's GPT models and Streamlit for the web interface.
 
+#### NOTE:
+This chatbot is not uptadeted with the latest openAI platform update from Nov 2023
+
 ## Getting Started
 
 ### Prerequisites
